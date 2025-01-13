@@ -1,0 +1,52 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
+  
+  header nav a {
+    padding: 10px;
+  }
+  
+  .section {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .team,
+  .services,
+  .projects,
+  .reviews {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .member,
+  .service,
+  .project,
+  .review {
+    border: solid 1px #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #eee;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .banner {
+    background-color: #e0e0e0;
+    padding: 50px;
+    text-align: center;
+  }
